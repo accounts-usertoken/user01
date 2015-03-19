@@ -16,6 +16,8 @@ if [ "$minion" != "Unaccepted" ]; then
   yes | sudo salt-key -a $minion
 fi
 
+sudo salt '*' pkg.install mongodb
+
 TRUE=`sudo salt '*' test.ping | sed -n 2p`
 
 echo "install completed : $TRUE"

@@ -1,0 +1,551 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-meanjs' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose cache add [ 'generator-meanjs', null ]
+5 verbose cache add name=undefined spec="generator-meanjs" args=["generator-meanjs",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'generator-meanjs',
+6 verbose parsed url   path: 'generator-meanjs',
+6 verbose parsed url   href: 'generator-meanjs' }
+7 silly lockFile b29127bc-generator-meanjs generator-meanjs
+8 verbose lock generator-meanjs /home/alexdavis/.npm/b29127bc-generator-meanjs.lock
+9 silly lockFile b29127bc-generator-meanjs generator-meanjs
+10 silly lockFile b29127bc-generator-meanjs generator-meanjs
+11 verbose addNamed [ 'generator-meanjs', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 3772e4e7-generator-meanjs generator-meanjs@
+14 verbose lock generator-meanjs@ /home/alexdavis/.npm/3772e4e7-generator-meanjs.lock
+15 silly addNameRange { name: 'generator-meanjs', range: '*', hasData: false }
+16 verbose url raw generator-meanjs
+17 verbose url resolving [ 'https://registry.npmjs.org/', './generator-meanjs' ]
+18 verbose url resolved https://registry.npmjs.org/generator-meanjs
+19 info trying registry request attempt 1 at 06:30:32
+20 http GET https://registry.npmjs.org/generator-meanjs
+21 http 200 https://registry.npmjs.org/generator-meanjs
+22 silly registry.get cb [ 200,
+22 silly registry.get   { date: 'Thu, 19 Mar 2015 06:30:32 GMT',
+22 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"2EZ1ZRVJT6LE5I7FLQW6AKLIW"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '39655',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     'x-served-by': 'cache-sjc3130-SJC',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1426746632.413334,VS0,VE88',
+22 silly registry.get     vary: 'Accept',
+22 silly registry.get     'keep-alive': 'timeout=10, max=50',
+22 silly registry.get     connection: 'Keep-Alive' } ]
+23 silly addNameRange number 2 { name: 'generator-meanjs', range: '*', hasData: true }
+24 silly addNameRange versions [ 'generator-meanjs',
+24 silly addNameRange   [ '0.0.1',
+24 silly addNameRange     '0.0.2',
+24 silly addNameRange     '0.0.3',
+24 silly addNameRange     '0.0.4',
+24 silly addNameRange     '0.0.5',
+24 silly addNameRange     '0.0.6',
+24 silly addNameRange     '0.0.7',
+24 silly addNameRange     '0.0.8',
+24 silly addNameRange     '0.0.9',
+24 silly addNameRange     '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.2',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.4',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.1.6',
+24 silly addNameRange     '0.1.7',
+24 silly addNameRange     '0.1.8',
+24 silly addNameRange     '0.1.9',
+24 silly addNameRange     '0.1.10',
+24 silly addNameRange     '0.1.11',
+24 silly addNameRange     '0.1.12' ] ]
+25 verbose addNamed [ 'generator-meanjs', '0.1.12' ]
+26 verbose addNamed [ '0.1.12', '0.1.12' ]
+27 silly lockFile f5fc0e65-generator-meanjs-0-1-12 generator-meanjs@0.1.12
+28 verbose lock generator-meanjs@0.1.12 /home/alexdavis/.npm/f5fc0e65-generator-meanjs-0-1-12.lock
+29 silly lockFile 7059d5a0-anjs-generator-meanjs-0-1-12-tgz https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.12.tgz
+30 verbose lock https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.12.tgz /home/alexdavis/.npm/7059d5a0-anjs-generator-meanjs-0-1-12-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.12.tgz',
+31 verbose addRemoteTarball   '778d776ef5867e7bcc6a8c0808a91830f2359bfa' ]
+32 info retry fetch attempt 1 at 06:30:32
+33 verbose fetch to= /home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/tmp.tgz
+34 http GET https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.12.tgz
+35 http 200 https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.12.tgz
+36 verbose tar unpack /home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/tmp.tgz
+37 silly lockFile 21e0b9c1-32708-0-8608992835506797-package tar:///home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/package
+38 verbose lock tar:///home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/package /home/alexdavis/.npm/21e0b9c1-32708-0-8608992835506797-package.lock
+39 silly lockFile bf482f66-32708-0-8608992835506797-tmp-tgz tar:///home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/tmp.tgz
+40 verbose lock tar:///home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/tmp.tgz /home/alexdavis/.npm/bf482f66-32708-0-8608992835506797-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry .npmignore
+44 silly gunzTarPerm extractEntry README.md
+45 silly gunzTarPerm extractEntry angular-route/index.js
+46 silly gunzTarPerm extractEntry angular-route/templates/_.client.controller.js
+47 silly gunzTarPerm extractEntry angular-route/templates/_.client.controller.test.js
+48 silly gunzTarPerm extractEntry angular-route/templates/_.client.route.js
+49 silly gunzTarPerm extractEntry angular-route/templates/_.client.routes.js
+50 silly gunzTarPerm extractEntry angular-route/templates/_.client.view.html
+51 silly gunzTarPerm extractEntry .jshintrc
+52 silly gunzTarPerm extractEntry .travis.yml
+53 silly gunzTarPerm extractEntry angular-config/index.js
+54 silly gunzTarPerm extractEntry angular-config/templates/_.client.config.js
+55 silly gunzTarPerm extractEntry angular-controller/index.js
+56 silly gunzTarPerm extractEntry angular-controller/templates/_.client.controller.js
+57 silly gunzTarPerm extractEntry angular-controller/templates/_.client.controller.test.js
+58 silly gunzTarPerm extractEntry angular-directive/index.js
+59 silly gunzTarPerm extractEntry angular-directive/templates/_.client.directive.js
+60 silly gunzTarPerm extractEntry angular-filter/index.js
+61 silly gunzTarPerm extractEntry angular-filter/templates/_.client.filter.js
+62 silly gunzTarPerm extractEntry angular-module/index.js
+63 silly gunzTarPerm extractEntry angular-module/templates/_.client.module.js
+64 silly gunzTarPerm extractEntry .editorconfig
+65 silly gunzTarPerm extractEntry angular-service/index.js
+66 silly gunzTarPerm extractEntry angular-service/templates/_.client.service.js
+67 silly gunzTarPerm extractEntry angular-test/index.js
+68 silly gunzTarPerm extractEntry angular-test/templates/_.client.controller.js
+69 silly gunzTarPerm extractEntry angular-test/templates/_.client.controller.test.js
+70 silly gunzTarPerm extractEntry angular-view/index.js
+71 silly gunzTarPerm extractEntry angular-view/templates/_.client.route.js
+72 silly gunzTarPerm extractEntry angular-view/templates/_.client.routes.js
+73 silly gunzTarPerm extractEntry angular-view/templates/_.client.view.html
+74 silly gunzTarPerm extractEntry app/index.js
+75 silly gunzTarPerm extractEntry app/templates/README.md
+76 silly gunzTarPerm extractEntry app/templates/gruntfile.js
+77 silly gunzTarPerm extractEntry app/templates/karma.conf.js
+78 silly gunzTarPerm extractEntry app/templates/server.js
+79 silly gunzTarPerm extractEntry app/templates/editorconfig
+80 silly gunzTarPerm extractEntry app/templates/_package.json
+81 silly gunzTarPerm extractEntry app/templates/app/controllers/articles.server.controller.js
+82 silly gunzTarPerm extractEntry app/templates/app/controllers/core.server.controller.js
+83 silly gunzTarPerm extractEntry app/templates/app/controllers/errors.server.controller.js
+84 silly gunzTarPerm extractEntry app/templates/app/controllers/users.server.controller.js
+85 silly gunzTarPerm extractEntry app/templates/app/controllers/users/users.authentication.server.controller.js
+86 silly gunzTarPerm extractEntry app/templates/app/controllers/users/users.authorization.server.controller.js
+87 silly gunzTarPerm extractEntry app/templates/app/controllers/users/users.password.server.controller.js
+88 silly gunzTarPerm extractEntry app/templates/app/controllers/users/users.profile.server.controller.js
+89 silly gunzTarPerm extractEntry app/templates/app/models/article.server.model.js
+90 silly gunzTarPerm extractEntry app/templates/app/models/user.server.model.js
+91 silly gunzTarPerm extractEntry app/templates/app/routes/articles.server.routes.js
+92 silly gunzTarPerm extractEntry app/templates/app/routes/core.server.routes.js
+93 silly gunzTarPerm extractEntry app/templates/app/routes/users.server.routes.js
+94 silly gunzTarPerm extractEntry app/templates/app/tests/article.server.model.test.js
+95 silly gunzTarPerm extractEntry app/templates/app/tests/article.server.routes.test.js
+96 silly gunzTarPerm extractEntry app/templates/app/tests/user.server.model.test.js
+97 silly gunzTarPerm extractEntry app/templates/app/views/404.server.view.html
+98 silly gunzTarPerm extractEntry app/templates/app/views/500.server.view.html
+99 silly gunzTarPerm extractEntry app/templates/app/views/index.server.view.html
+100 silly gunzTarPerm extractEntry app/templates/app/views/layout.server.view.html
+101 silly gunzTarPerm extractEntry app/templates/app/views/templates/reset-password-confirm-email.server.view.html
+102 silly gunzTarPerm extractEntry app/templates/app/views/templates/reset-password-email.server.view.html
+103 silly gunzTarPerm extractEntry app/templates/bowerrc
+104 silly gunzTarPerm extractEntry app/templates/config/config.js
+105 silly gunzTarPerm extractEntry app/templates/config/express.js
+106 silly gunzTarPerm extractEntry app/templates/config/init.js
+107 silly gunzTarPerm extractEntry app/templates/config/passport.js
+108 silly gunzTarPerm extractEntry app/templates/config/env/_all.js
+109 silly gunzTarPerm extractEntry app/templates/config/env/_development.js
+110 silly gunzTarPerm extractEntry app/templates/config/env/_production.js
+111 silly gunzTarPerm extractEntry app/templates/config/env/_secure.js
+112 silly gunzTarPerm extractEntry app/templates/config/env/_test.js
+113 silly gunzTarPerm extractEntry app/templates/config/strategies/facebook.js
+114 silly gunzTarPerm extractEntry app/templates/config/strategies/github.js
+115 silly gunzTarPerm extractEntry app/templates/config/strategies/google.js
+116 silly gunzTarPerm extractEntry app/templates/config/strategies/linkedin.js
+117 silly gunzTarPerm extractEntry app/templates/config/strategies/local.js
+118 silly gunzTarPerm extractEntry app/templates/config/strategies/twitter.js
+119 silly gunzTarPerm extractEntry app/templates/csslintrc
+120 silly gunzTarPerm extractEntry app/templates/LICENSE.md
+121 silly gunzTarPerm extractEntry app/templates/fig.yml
+122 silly gunzTarPerm extractEntry app/templates/generate-ssl-certs.sh
+123 silly gunzTarPerm extractEntry app/templates/gitignore
+124 silly gunzTarPerm extractEntry app/templates/Procfile
+125 silly gunzTarPerm extractEntry app/templates/jshintrc
+126 silly gunzTarPerm extractEntry app/templates/Dockerfile
+127 silly gunzTarPerm extractEntry app/templates/public/_config.js
+128 silly gunzTarPerm extractEntry app/templates/public/application.js
+129 silly gunzTarPerm extractEntry app/templates/public/humans.txt
+130 silly gunzTarPerm extractEntry app/templates/public/modules/articles/articles.client.module.js
+131 silly gunzTarPerm extractEntry app/templates/public/modules/articles/config/articles.client.config.js
+132 silly gunzTarPerm extractEntry app/templates/public/modules/articles/config/articles.client.routes.js
+133 silly gunzTarPerm extractEntry app/templates/public/modules/articles/controllers/articles.client.controller.js
+134 silly gunzTarPerm extractEntry app/templates/public/modules/articles/services/articles.client.service.js
+135 silly gunzTarPerm extractEntry app/templates/public/modules/articles/tests/articles.client.controller.test.js
+136 silly gunzTarPerm extractEntry app/templates/public/modules/articles/views/create-article.client.view.html
+137 silly gunzTarPerm extractEntry app/templates/public/modules/articles/views/edit-article.client.view.html
+138 silly gunzTarPerm extractEntry app/templates/public/modules/articles/views/list-articles.client.view.html
+139 silly gunzTarPerm extractEntry app/templates/public/modules/articles/views/view-article.client.view.html
+140 silly gunzTarPerm extractEntry app/templates/public/modules/core/core.client.module.js
+141 silly gunzTarPerm extractEntry app/templates/public/modules/core/config/core.client.routes.js
+142 silly gunzTarPerm extractEntry app/templates/public/modules/core/controllers/header.client.controller.js
+143 silly gunzTarPerm extractEntry app/templates/public/modules/core/controllers/home.client.controller.js
+144 silly gunzTarPerm extractEntry app/templates/public/modules/core/css/core.css
+145 silly gunzTarPerm extractEntry app/templates/public/modules/core/img/brand/favicon.ico
+146 silly gunzTarPerm extractEntry app/templates/public/modules/core/img/brand/logo.png
+147 silly gunzTarPerm extractEntry app/templates/public/modules/core/img/loaders/loader.gif
+148 silly gunzTarPerm extractEntry app/templates/public/modules/core/services/menus.client.service.js
+149 silly gunzTarPerm extractEntry app/templates/public/modules/core/tests/header.client.controller.test.js
+150 silly gunzTarPerm extractEntry app/templates/public/modules/core/tests/home.client.controller.test.js
+151 silly gunzTarPerm extractEntry app/templates/public/modules/core/views/_header.client.view.html
+152 silly gunzTarPerm extractEntry app/templates/public/modules/core/views/home.client.view.html
+153 silly gunzTarPerm extractEntry app/templates/public/modules/users/users.client.module.js
+154 silly gunzTarPerm extractEntry app/templates/public/modules/users/config/users.client.config.js
+155 silly gunzTarPerm extractEntry app/templates/public/modules/users/config/users.client.routes.js
+156 silly gunzTarPerm extractEntry app/templates/public/modules/users/controllers/authentication.client.controller.js
+157 silly gunzTarPerm extractEntry app/templates/public/modules/users/controllers/password.client.controller.js
+158 silly gunzTarPerm extractEntry app/templates/public/modules/users/controllers/settings.client.controller.js
+159 silly gunzTarPerm extractEntry app/templates/public/modules/users/css/users.css
+160 silly gunzTarPerm extractEntry app/templates/public/modules/users/img/buttons/facebook.png
+161 silly gunzTarPerm extractEntry app/templates/public/modules/users/img/buttons/github.png
+162 silly gunzTarPerm extractEntry app/templates/public/modules/users/img/buttons/google.png
+163 silly gunzTarPerm extractEntry app/templates/public/modules/users/img/buttons/linkedin.png
+164 silly gunzTarPerm extractEntry app/templates/public/modules/users/img/buttons/twitter.png
+165 silly gunzTarPerm extractEntry app/templates/public/modules/users/services/authentication.client.service.js
+166 silly gunzTarPerm extractEntry app/templates/public/modules/users/services/users.client.service.js
+167 silly gunzTarPerm extractEntry app/templates/public/modules/users/tests/authentication.client.controller.test.js
+168 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/authentication/signin.client.view.html
+169 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/authentication/signup.client.view.html
+170 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/password/forgot-password.client.view.html
+171 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/password/reset-password-invalid.client.view.html
+172 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/password/reset-password-success.client.view.html
+173 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/password/reset-password.client.view.html
+174 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/settings/change-password.client.view.html
+175 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/settings/edit-profile.client.view.html
+176 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/settings/social-accounts.client.view.html
+177 silly gunzTarPerm extractEntry app/templates/public/robots.txt
+178 silly gunzTarPerm extractEntry app/templates/_bower.json
+179 silly gunzTarPerm extractEntry app/templates/slugignore
+180 silly gunzTarPerm extractEntry app/templates/travis.yml
+181 silly gunzTarPerm extractEntry crud-module/index.js
+182 silly gunzTarPerm extractEntry crud-module/templates/angular-module/_.client.module.js
+183 silly gunzTarPerm extractEntry crud-module/templates/angular-module/config/_.client.config.js
+184 silly gunzTarPerm extractEntry crud-module/templates/angular-module/config/_.client.routes.js
+185 silly gunzTarPerm extractEntry crud-module/templates/angular-module/controllers/_.client.controller.js
+186 silly gunzTarPerm extractEntry crud-module/templates/angular-module/services/_.client.service.js
+187 silly gunzTarPerm extractEntry crud-module/templates/angular-module/tests/_.client.controller.test.js
+188 silly gunzTarPerm extractEntry crud-module/templates/angular-module/views/_.create.client.view.html
+189 silly gunzTarPerm extractEntry crud-module/templates/angular-module/views/_.edit.client.view.html
+190 silly gunzTarPerm extractEntry crud-module/templates/angular-module/views/_.list.client.view.html
+191 silly gunzTarPerm extractEntry crud-module/templates/angular-module/views/_.view.client.view.html
+192 silly gunzTarPerm extractEntry crud-module/templates/express-module/_.server.controller.js
+193 silly gunzTarPerm extractEntry crud-module/templates/express-module/_.server.model.js
+194 silly gunzTarPerm extractEntry crud-module/templates/express-module/_.server.model.test.js
+195 silly gunzTarPerm extractEntry crud-module/templates/express-module/_.server.routes.js
+196 silly gunzTarPerm extractEntry crud-module/templates/express-module/_.server.routes.test.js
+197 silly gunzTarPerm extractEntry express-controller/index.js
+198 silly gunzTarPerm extractEntry express-controller/templates/_.server.controller.js
+199 silly gunzTarPerm extractEntry express-model/index.js
+200 silly gunzTarPerm extractEntry express-model/templates/_.server.model.js
+201 silly gunzTarPerm extractEntry express-model/templates/_.server.model.test.js
+202 silly gunzTarPerm extractEntry express-route/index.js
+203 silly gunzTarPerm extractEntry express-route/templates/_.server.routes.js
+204 silly gunzTarPerm extractEntry express-test/index.js
+205 silly gunzTarPerm extractEntry express-test/templates/_.server.model.js
+206 silly gunzTarPerm extractEntry express-test/templates/_.server.model.test.js
+207 silly gunzTarPerm extractEntry .gitattributes
+208 silly gunzTarPerm extractEntry test/test-creation.js
+209 silly gunzTarPerm extractEntry test/test-load.js
+210 silly lockFile 21e0b9c1-32708-0-8608992835506797-package tar:///home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/package
+211 silly lockFile 21e0b9c1-32708-0-8608992835506797-package tar:///home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/package
+212 silly lockFile bf482f66-32708-0-8608992835506797-tmp-tgz tar:///home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/tmp.tgz
+213 silly lockFile bf482f66-32708-0-8608992835506797-tmp-tgz tar:///home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/tmp.tgz
+214 verbose tar pack [ '/home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz',
+214 verbose tar pack   '/home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/package' ]
+215 verbose tarball /home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz
+216 verbose folder /home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/package
+217 silly lockFile 21e0b9c1-32708-0-8608992835506797-package tar:///home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/package
+218 verbose lock tar:///home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/package /home/alexdavis/.npm/21e0b9c1-32708-0-8608992835506797-package.lock
+219 silly lockFile 78d3e584-erator-meanjs-0-1-12-package-tgz tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz
+220 verbose lock tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz /home/alexdavis/.npm/78d3e584-erator-meanjs-0-1-12-package-tgz.lock
+221 silly lockFile 21e0b9c1-32708-0-8608992835506797-package tar:///home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/package
+222 silly lockFile 21e0b9c1-32708-0-8608992835506797-package tar:///home/alexdavis/tmp/npm-5864-oevsLRep/1426746632708-0.8608992835506797/package
+223 silly lockFile 78d3e584-erator-meanjs-0-1-12-package-tgz tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz
+224 silly lockFile 78d3e584-erator-meanjs-0-1-12-package-tgz tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz
+225 silly lockFile 57e229fb--generator-meanjs-0-1-12-package /home/alexdavis/.npm/generator-meanjs/0.1.12/package
+226 verbose lock /home/alexdavis/.npm/generator-meanjs/0.1.12/package /home/alexdavis/.npm/57e229fb--generator-meanjs-0-1-12-package.lock
+227 silly lockFile 57e229fb--generator-meanjs-0-1-12-package /home/alexdavis/.npm/generator-meanjs/0.1.12/package
+228 silly lockFile 57e229fb--generator-meanjs-0-1-12-package /home/alexdavis/.npm/generator-meanjs/0.1.12/package
+229 verbose tar unpack /home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz
+230 silly lockFile d6b64550--generator-meanjs-0-1-12-package tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package
+231 verbose lock tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package /home/alexdavis/.npm/d6b64550--generator-meanjs-0-1-12-package.lock
+232 silly lockFile 78d3e584-erator-meanjs-0-1-12-package-tgz tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz
+233 verbose lock tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz /home/alexdavis/.npm/78d3e584-erator-meanjs-0-1-12-package-tgz.lock
+234 silly gunzTarPerm modes [ '755', '644' ]
+235 silly gunzTarPerm extractEntry package.json
+236 silly gunzTarPerm extractEntry .npmignore
+237 silly gunzTarPerm extractEntry README.md
+238 silly gunzTarPerm extractEntry angular-route/index.js
+239 silly gunzTarPerm extractEntry angular-route/templates/_.client.controller.js
+240 silly gunzTarPerm extractEntry angular-route/templates/_.client.controller.test.js
+241 silly gunzTarPerm extractEntry angular-route/templates/_.client.route.js
+242 silly gunzTarPerm extractEntry angular-route/templates/_.client.routes.js
+243 silly gunzTarPerm extractEntry angular-route/templates/_.client.view.html
+244 silly gunzTarPerm extractEntry .travis.yml
+245 silly gunzTarPerm extractEntry .jshintrc
+246 silly gunzTarPerm extractEntry angular-config/index.js
+247 silly gunzTarPerm extractEntry angular-config/templates/_.client.config.js
+248 silly gunzTarPerm extractEntry angular-controller/index.js
+249 silly gunzTarPerm extractEntry angular-controller/templates/_.client.controller.js
+250 silly gunzTarPerm extractEntry angular-controller/templates/_.client.controller.test.js
+251 silly gunzTarPerm extractEntry angular-directive/index.js
+252 silly gunzTarPerm extractEntry angular-directive/templates/_.client.directive.js
+253 silly gunzTarPerm extractEntry angular-filter/index.js
+254 silly gunzTarPerm extractEntry angular-filter/templates/_.client.filter.js
+255 silly gunzTarPerm extractEntry angular-module/index.js
+256 silly gunzTarPerm extractEntry angular-module/templates/_.client.module.js
+257 silly gunzTarPerm extractEntry .gitattributes
+258 silly gunzTarPerm extractEntry angular-service/index.js
+259 silly gunzTarPerm extractEntry angular-service/templates/_.client.service.js
+260 silly gunzTarPerm extractEntry angular-test/index.js
+261 silly gunzTarPerm extractEntry angular-test/templates/_.client.controller.js
+262 silly gunzTarPerm extractEntry angular-test/templates/_.client.controller.test.js
+263 silly gunzTarPerm extractEntry angular-view/index.js
+264 silly gunzTarPerm extractEntry angular-view/templates/_.client.route.js
+265 silly gunzTarPerm extractEntry angular-view/templates/_.client.routes.js
+266 silly gunzTarPerm extractEntry angular-view/templates/_.client.view.html
+267 silly gunzTarPerm extractEntry app/index.js
+268 silly gunzTarPerm extractEntry app/templates/README.md
+269 silly gunzTarPerm extractEntry app/templates/gruntfile.js
+270 silly gunzTarPerm extractEntry app/templates/karma.conf.js
+271 silly gunzTarPerm extractEntry app/templates/server.js
+272 silly gunzTarPerm extractEntry app/templates/editorconfig
+273 silly gunzTarPerm extractEntry app/templates/_package.json
+274 silly gunzTarPerm extractEntry app/templates/app/controllers/articles.server.controller.js
+275 silly gunzTarPerm extractEntry app/templates/app/controllers/core.server.controller.js
+276 silly gunzTarPerm extractEntry app/templates/app/controllers/errors.server.controller.js
+277 silly gunzTarPerm extractEntry app/templates/app/controllers/users.server.controller.js
+278 silly gunzTarPerm extractEntry app/templates/app/controllers/users/users.authentication.server.controller.js
+279 silly gunzTarPerm extractEntry app/templates/app/controllers/users/users.authorization.server.controller.js
+280 silly gunzTarPerm extractEntry app/templates/app/controllers/users/users.password.server.controller.js
+281 silly gunzTarPerm extractEntry app/templates/app/controllers/users/users.profile.server.controller.js
+282 silly gunzTarPerm extractEntry app/templates/app/models/article.server.model.js
+283 silly gunzTarPerm extractEntry app/templates/app/models/user.server.model.js
+284 silly gunzTarPerm extractEntry app/templates/app/routes/articles.server.routes.js
+285 silly gunzTarPerm extractEntry app/templates/app/routes/core.server.routes.js
+286 silly gunzTarPerm extractEntry app/templates/app/routes/users.server.routes.js
+287 silly gunzTarPerm extractEntry app/templates/app/tests/article.server.model.test.js
+288 silly gunzTarPerm extractEntry app/templates/app/tests/article.server.routes.test.js
+289 silly gunzTarPerm extractEntry app/templates/app/tests/user.server.model.test.js
+290 silly gunzTarPerm extractEntry app/templates/app/views/404.server.view.html
+291 silly gunzTarPerm extractEntry app/templates/app/views/500.server.view.html
+292 silly gunzTarPerm extractEntry app/templates/app/views/index.server.view.html
+293 silly gunzTarPerm extractEntry app/templates/app/views/layout.server.view.html
+294 silly gunzTarPerm extractEntry app/templates/app/views/templates/reset-password-confirm-email.server.view.html
+295 silly gunzTarPerm extractEntry app/templates/app/views/templates/reset-password-email.server.view.html
+296 silly gunzTarPerm extractEntry app/templates/bowerrc
+297 silly gunzTarPerm extractEntry app/templates/config/config.js
+298 silly gunzTarPerm extractEntry app/templates/config/express.js
+299 silly gunzTarPerm extractEntry app/templates/config/init.js
+300 silly gunzTarPerm extractEntry app/templates/config/passport.js
+301 silly gunzTarPerm extractEntry app/templates/config/env/_all.js
+302 silly gunzTarPerm extractEntry app/templates/config/env/_development.js
+303 silly gunzTarPerm extractEntry app/templates/config/env/_production.js
+304 silly gunzTarPerm extractEntry app/templates/config/env/_secure.js
+305 silly gunzTarPerm extractEntry app/templates/config/env/_test.js
+306 silly gunzTarPerm extractEntry app/templates/config/strategies/facebook.js
+307 silly gunzTarPerm extractEntry app/templates/config/strategies/github.js
+308 silly gunzTarPerm extractEntry app/templates/config/strategies/google.js
+309 silly gunzTarPerm extractEntry app/templates/config/strategies/linkedin.js
+310 silly gunzTarPerm extractEntry app/templates/config/strategies/local.js
+311 silly gunzTarPerm extractEntry app/templates/config/strategies/twitter.js
+312 silly gunzTarPerm extractEntry app/templates/csslintrc
+313 silly gunzTarPerm extractEntry app/templates/LICENSE.md
+314 silly gunzTarPerm extractEntry app/templates/fig.yml
+315 silly gunzTarPerm extractEntry app/templates/generate-ssl-certs.sh
+316 silly gunzTarPerm extractEntry app/templates/gitignore
+317 silly gunzTarPerm extractEntry app/templates/Procfile
+318 silly gunzTarPerm extractEntry app/templates/jshintrc
+319 silly gunzTarPerm extractEntry app/templates/Dockerfile
+320 silly gunzTarPerm extractEntry app/templates/public/_config.js
+321 silly gunzTarPerm extractEntry app/templates/public/application.js
+322 silly gunzTarPerm extractEntry app/templates/public/humans.txt
+323 silly gunzTarPerm extractEntry app/templates/public/modules/articles/articles.client.module.js
+324 silly gunzTarPerm extractEntry app/templates/public/modules/articles/config/articles.client.config.js
+325 silly gunzTarPerm extractEntry app/templates/public/modules/articles/config/articles.client.routes.js
+326 silly gunzTarPerm extractEntry app/templates/public/modules/articles/controllers/articles.client.controller.js
+327 silly gunzTarPerm extractEntry app/templates/public/modules/articles/services/articles.client.service.js
+328 silly gunzTarPerm extractEntry app/templates/public/modules/articles/tests/articles.client.controller.test.js
+329 silly gunzTarPerm extractEntry app/templates/public/modules/articles/views/create-article.client.view.html
+330 silly gunzTarPerm extractEntry app/templates/public/modules/articles/views/edit-article.client.view.html
+331 silly gunzTarPerm extractEntry app/templates/public/modules/articles/views/list-articles.client.view.html
+332 silly gunzTarPerm extractEntry app/templates/public/modules/articles/views/view-article.client.view.html
+333 silly gunzTarPerm extractEntry app/templates/public/modules/core/core.client.module.js
+334 silly gunzTarPerm extractEntry app/templates/public/modules/core/config/core.client.routes.js
+335 silly gunzTarPerm extractEntry app/templates/public/modules/core/controllers/header.client.controller.js
+336 silly gunzTarPerm extractEntry app/templates/public/modules/core/controllers/home.client.controller.js
+337 silly gunzTarPerm extractEntry app/templates/public/modules/core/css/core.css
+338 silly gunzTarPerm extractEntry app/templates/public/modules/core/img/brand/favicon.ico
+339 silly gunzTarPerm extractEntry app/templates/public/modules/core/img/brand/logo.png
+340 silly gunzTarPerm extractEntry app/templates/public/modules/core/img/loaders/loader.gif
+341 silly gunzTarPerm extractEntry app/templates/public/modules/core/services/menus.client.service.js
+342 silly gunzTarPerm extractEntry app/templates/public/modules/core/tests/header.client.controller.test.js
+343 silly gunzTarPerm extractEntry app/templates/public/modules/core/tests/home.client.controller.test.js
+344 silly gunzTarPerm extractEntry app/templates/public/modules/core/views/_header.client.view.html
+345 silly gunzTarPerm extractEntry app/templates/public/modules/core/views/home.client.view.html
+346 silly gunzTarPerm extractEntry app/templates/public/modules/users/users.client.module.js
+347 silly gunzTarPerm extractEntry app/templates/public/modules/users/config/users.client.config.js
+348 silly gunzTarPerm extractEntry app/templates/public/modules/users/config/users.client.routes.js
+349 silly gunzTarPerm extractEntry app/templates/public/modules/users/controllers/authentication.client.controller.js
+350 silly gunzTarPerm extractEntry app/templates/public/modules/users/controllers/password.client.controller.js
+351 silly gunzTarPerm extractEntry app/templates/public/modules/users/controllers/settings.client.controller.js
+352 silly gunzTarPerm extractEntry app/templates/public/modules/users/css/users.css
+353 silly gunzTarPerm extractEntry app/templates/public/modules/users/img/buttons/facebook.png
+354 silly gunzTarPerm extractEntry app/templates/public/modules/users/img/buttons/github.png
+355 silly gunzTarPerm extractEntry app/templates/public/modules/users/img/buttons/google.png
+356 silly gunzTarPerm extractEntry app/templates/public/modules/users/img/buttons/linkedin.png
+357 silly gunzTarPerm extractEntry app/templates/public/modules/users/img/buttons/twitter.png
+358 silly gunzTarPerm extractEntry app/templates/public/modules/users/services/authentication.client.service.js
+359 silly gunzTarPerm extractEntry app/templates/public/modules/users/services/users.client.service.js
+360 silly gunzTarPerm extractEntry app/templates/public/modules/users/tests/authentication.client.controller.test.js
+361 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/authentication/signin.client.view.html
+362 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/authentication/signup.client.view.html
+363 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/password/forgot-password.client.view.html
+364 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/password/reset-password-invalid.client.view.html
+365 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/password/reset-password-success.client.view.html
+366 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/password/reset-password.client.view.html
+367 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/settings/change-password.client.view.html
+368 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/settings/edit-profile.client.view.html
+369 silly gunzTarPerm extractEntry app/templates/public/modules/users/views/settings/social-accounts.client.view.html
+370 silly gunzTarPerm extractEntry app/templates/public/robots.txt
+371 silly gunzTarPerm extractEntry app/templates/_bower.json
+372 silly gunzTarPerm extractEntry app/templates/slugignore
+373 silly gunzTarPerm extractEntry app/templates/travis.yml
+374 silly gunzTarPerm extractEntry crud-module/index.js
+375 silly gunzTarPerm extractEntry crud-module/templates/angular-module/_.client.module.js
+376 silly gunzTarPerm extractEntry crud-module/templates/angular-module/config/_.client.config.js
+377 silly gunzTarPerm extractEntry crud-module/templates/angular-module/config/_.client.routes.js
+378 silly gunzTarPerm extractEntry crud-module/templates/angular-module/controllers/_.client.controller.js
+379 silly gunzTarPerm extractEntry crud-module/templates/angular-module/services/_.client.service.js
+380 silly gunzTarPerm extractEntry crud-module/templates/angular-module/tests/_.client.controller.test.js
+381 silly gunzTarPerm extractEntry crud-module/templates/angular-module/views/_.create.client.view.html
+382 silly gunzTarPerm extractEntry crud-module/templates/angular-module/views/_.edit.client.view.html
+383 silly gunzTarPerm extractEntry crud-module/templates/angular-module/views/_.list.client.view.html
+384 silly gunzTarPerm extractEntry crud-module/templates/angular-module/views/_.view.client.view.html
+385 silly gunzTarPerm extractEntry crud-module/templates/express-module/_.server.controller.js
+386 silly gunzTarPerm extractEntry crud-module/templates/express-module/_.server.model.js
+387 silly gunzTarPerm extractEntry crud-module/templates/express-module/_.server.model.test.js
+388 silly gunzTarPerm extractEntry crud-module/templates/express-module/_.server.routes.js
+389 silly gunzTarPerm extractEntry crud-module/templates/express-module/_.server.routes.test.js
+390 silly gunzTarPerm extractEntry express-controller/index.js
+391 silly gunzTarPerm extractEntry express-controller/templates/_.server.controller.js
+392 silly gunzTarPerm extractEntry express-model/index.js
+393 silly gunzTarPerm extractEntry express-model/templates/_.server.model.js
+394 silly gunzTarPerm extractEntry express-model/templates/_.server.model.test.js
+395 silly gunzTarPerm extractEntry express-route/index.js
+396 silly gunzTarPerm extractEntry express-route/templates/_.server.routes.js
+397 silly gunzTarPerm extractEntry express-test/index.js
+398 silly gunzTarPerm extractEntry express-test/templates/_.server.model.js
+399 silly gunzTarPerm extractEntry express-test/templates/_.server.model.test.js
+400 silly gunzTarPerm extractEntry .editorconfig
+401 silly gunzTarPerm extractEntry test/test-creation.js
+402 silly gunzTarPerm extractEntry test/test-load.js
+403 silly lockFile d6b64550--generator-meanjs-0-1-12-package tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package
+404 silly lockFile d6b64550--generator-meanjs-0-1-12-package tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package
+405 silly lockFile 78d3e584-erator-meanjs-0-1-12-package-tgz tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz
+406 silly lockFile 78d3e584-erator-meanjs-0-1-12-package-tgz tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz
+407 verbose chmod /home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz 644
+408 verbose chown /home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz [ 1001, 1002 ]
+409 silly lockFile 7059d5a0-anjs-generator-meanjs-0-1-12-tgz https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.12.tgz
+410 silly lockFile 7059d5a0-anjs-generator-meanjs-0-1-12-tgz https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.12.tgz
+411 silly lockFile f5fc0e65-generator-meanjs-0-1-12 generator-meanjs@0.1.12
+412 silly lockFile f5fc0e65-generator-meanjs-0-1-12 generator-meanjs@0.1.12
+413 silly lockFile 3772e4e7-generator-meanjs generator-meanjs@
+414 silly lockFile 3772e4e7-generator-meanjs generator-meanjs@
+415 silly resolved [ { name: 'generator-meanjs',
+415 silly resolved     version: '0.1.12',
+415 silly resolved     description: 'MEAN.JS Official Yeoman Generator',
+415 silly resolved     main: 'app/index.js',
+415 silly resolved     repository: { type: 'git', url: 'git://github.com/meanjs/generator-meanjs' },
+415 silly resolved     author:
+415 silly resolved      { name: 'MEAN.JS Team',
+415 silly resolved        email: 'support@meanjs.org',
+415 silly resolved        url: 'https://github.com/meanjs' },
+415 silly resolved     engines: { node: '>=0.10.0' },
+415 silly resolved     scripts: { test: 'mocha' },
+415 silly resolved     keywords:
+415 silly resolved      [ 'yeoman-generator',
+415 silly resolved        'scaffold',
+415 silly resolved        'framework',
+415 silly resolved        'component',
+415 silly resolved        'front-end',
+415 silly resolved        'app',
+415 silly resolved        'mean',
+415 silly resolved        'meanjs',
+415 silly resolved        'node',
+415 silly resolved        'express',
+415 silly resolved        'angular' ],
+415 silly resolved     dependencies:
+415 silly resolved      { 'yeoman-generator': '~0.17.1',
+415 silly resolved        chalk: '~0.5.1',
+415 silly resolved        'underscore.inflections': '~0.2.1' },
+415 silly resolved     devDependencies:
+415 silly resolved      { assert: '~1.1.1',
+415 silly resolved        async: '~0.9.0',
+415 silly resolved        'fs-extra': '~0.10.0',
+415 silly resolved        mocha: '~1.21.3',
+415 silly resolved        temp: '~0.8.0' },
+415 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+415 silly resolved     licenses: [ [Object] ],
+415 silly resolved     readme: '[![MEAN.JS Logo](http://meanjs.org/img/logo-small.png)](http://meanjs.org/)\n\n[![Build Status](https://travis-ci.org/meanjs/generator-meanjs.svg?branch=master)](https://travis-ci.org/meanjs/generator-meanjs)\n[![Dependencies Status](https://david-dm.org/meanjs/generator-meanjs.svg)](https://david-dm.org/meanjs/generator-meanjs)\n\nMEAN.JS is a full-stack JavaScript open-source solution, which provides a solid starting point for [MongoDB](http://www.mongodb.org/), [Node.js](http://www.nodejs.org/), [Express](http://expressjs.com/), and [AngularJS](http://angularjs.org/) based applications. The idea is to solve the common issues with connecting those frameworks, build a robust framework to support daily development needs, and help developers use better practices while working with popular JavaScript components.\n## Overview\n\nOne of the most frequently asked features from MEAN users is a way to scaffold their applications. As we looked for a way to help the community build and deploy production level MEAN applications, we decided to go with a [Yeoman](http://yeoman.io/index.html) generator. Yeoman generators provides a powerful, easy to maintain, and open solution for scaffolding applications.\n\n\n\nSo, we set out to work on the features we thought every developer needs, and we are proud to present the official MEAN.JS Yeoman generator. It includes a set of simple tools you can use to make your MEAN application development easier and way more fun.\n\n\n\n## Getting Started\n\nBefore you begin make sure you have the [yo scaffolding tool](http://yeoman.io/generators.html) installed(As it is part of the Yeoman tool set you might have installed it before). To globally install *yo* you will need to use npm:\n\n\n```\n$ npm install -g yo\n```\n\n\n**Note:** Your user might not have the permissions to install package globally, so use a super user or **sudo**.\n\n\n\nOnce you have *yo* installed, you will need to install the MEAN.JS generator as well:\n\n\n```\n$ npm install -g generator-meanjs\n```\n\nYou are now ready to get started with the MEAN.JS generator. The generator will help you create a MEAN.JS application, a CRUD module, Angular Module, and other AngularJS/Express entities.\n\n## Generators\n\nAvailable generators:\n\n* [meanjs](#application-generator)\n* [meanjs:crud-module](#crud-module-sub-generator)\n* [meanjs:angular-module](#angularjs-module-sub-generator)\n* [meanjs:angular-route](#angularjs-route-sub-generator)\n* [meanjs:angular-controller](#angularjs-controller-sub-generator)\n* [meanjs:angular-view](#angularjs-view-sub-generator)\n* [meanjs:angular-service](#angularjs-service-sub-generator)\n* [meanjs:angular-directive](#angularjs-directive-sub-generator)\n* [meanjs:angular-filter](#angularjs-filter-sub-generator)\n* [meanjs:angular-config](#angularjs-config-sub-generator)\n* [meanjs:angular-test](#angularjs-test-sub-generator)\n* [meanjs:express-model](#express-model-sub-generator)\n* [meanjs:express-controller](#express-controller-sub-generator)\n* [meanjs:express-route](#express-routes-sub-generator)\n* [meanjs:express-test](#express-test-sub-generator)\n\n**Note: Generators are to be run from the root directory of your app.**\n\n\n## Application Generator\n\nThe application generator will help you create a fresh copy of a MEAN.JS application in your working folder. To create your MEAN application, navigate to a new project folder, and then use *yo* to generate your application:\n\n\n```\n$ yo meanjs\n```\n\nThe generator will ask you a few questions about your new application and will generate it for you. When the installation process is over, you will be able to use grunt to run your new MEAN application:\n\n\n```\n$ grunt\n```\n\nNow, the application generator does a great job scaffolding a whole application, but daily work requires us to repeat a lot of structured code. For this purpose we provided you with some sub-generators to help you speed up your development.\n\n\n\n## CRUD Module Sub-Generator\n\nThe CRUD module sub-generator will help you create a new CRUD module, similar to the article sample provided with the project. To create a new CRUD module you will need to use *yo* again:\n\n\n```\n$ yo meanjs:crud-module <module-name>\n```\n\nThis will create both AngularJS and Express files supporting full CRUD functionality, and add the Karma and Mocha tests.\n\n\n**Note:** Don’t forget to use your module name as an argument when calling the CRUD module sub-generator.\n\n\n\n## AngularJS Module Sub-Generator\n\nAnother redundant task is creating a new AngularJS module structure. For this purpose you can use the Angular module sub-generator. It will create the proper folder structure for you and the module initialization file. Creating a new AngularJS module is simple:\n\n\n```\n$ yo meanjs:angular-module <module-name>\n```\n\nThe sub-generator will ask for more information about your folder structure, and will create the empty new AngularJS module. Now, to fill that new module with your business logic, we provided you with several AngularJS entities sub-generators.\n\n\n\n## AngularJS Route Sub-Generator\n\nTo construct your module you will often need to create a new route. The AngularJS route sub-generator will help you create a view, controller and a proper route in your module **routes.js** file. If it can’t find the module routes file the sub-generator will create one for you. Creating a new AngularJS route will involve executing this command:\n\n\n\n```\n$ yo meanjs:angular-route <route-name>\n```\n\nThe sub-generator will ask for more information about your controller, view and routing URL, and will generate the appropriate files for you.\n\n\n\n## AngularJS Controller Sub-Generator\n\nThe AngularJS Controller sub-generator will create a new AngularJS controller in the specified module\'s **controllers** folder. To create a new AngularJS controller run *yo* again by using this command:\n\n\n```\n$ yo meanjs:angular-controller <controller-name>\n```\n\nThe sub-generator will ask you for the module name under which you would like to create your new controller, and will create a new AngularJS controller file in that module **controllers** folder and a test file in the **tests** folder.\n\n\n**Don’t forget!** This time you pass the controller name as an argument.\n\n\n\n## AngularJS View Sub-Generator\n\nOnce you have your controller file ready, you may want to add a view that makes use of this controller. The AngularJS view sub-generator will create a new AngularJS view in the specified module\'s **views** folder, and will allow you to add a route definition for it. To create a new AngularJS view you will need to execute this command:\n\n\n```\n$ yo meanjs:angular-view <view-name>\n```\n\nThe sub-generator will ask you for the module name under which you would like to create your new view, and some additional routing information. It will then create a new view file in that module\'s **views** folder and add a routing state to the module **routes.js** file. If it can’t find the module routes file it will create one for you.\n\n\n\n## AngularJS Service Sub-Generator\n\nThe AngularJS service sub-generator will create a new AngularJS service in the specified module\'s **services** folder. To create a new AngularJS service you will need to execute this command:\n\n\n```\n$ yo meanjs:angular-service <service-name>\n```\n\nThe sub-generator will ask you for the module name under which you would like to create your new service, and will create a new AngularJS service file in that module\'s **services** folder.\n\n\n\n## AngularJS Directive Sub-Generator\n\nThe AngularJS directive sub-generator will create a new AngularJS directive in the specified module\'s **directives** folder. Creating a new AngularJS directive should already look familiar:\n\n\n```\n$ yo meanjs:angular-directive <directive-name>\n```\n\nThe sub-generator will ask you for the module name under which you would like to create your new directive, and will create a new AngularJS directive file in that module\'s **directives** folder.\n\n\n\n## AngularJS Filter Sub-Generator\n\nThe AngularJS filter sub-generator will create a new AngularJS filter in a specified module\'s **filters** folder. To create a new AngularJS filter you need to call yo again:\n\n\n```\n$ yo meanjs:angular-filter <filter-name>\n```\n\nThe sub-generator will ask you for the module name under which you would like to create your new filter, and will create a new AngularJS filter file in that module **filters** folder.\n\n\n\n## AngularJS Config Sub-Generator\n\nThe AngularJS config sub-generator will create a new AngularJS config section in a specified module\'s **config** folder. To create a new AngularJS config file just call yo:\n\n\n```\n$ yo meanjs:angular-config <config-name>\n```\n\nThe sub-generator will ask you for the module name under which you would like to create your new config, and will create a new AngularJS config file in that module\'s **config** folder.\n\n\n\n## AngularJS Test Sub-Generator\n\nYour MEAN application comes pre-bundled with the Karma test runner and Jasmine testing framework. To test your AngularJS controllers you’ll need to create a test file, which Karma will later use to run the tests. For this purpose we provided you with the AngularJS test sub-generator. Creating a new AngularJS test is effortless, just execute this command:\n\n\n```\n$ yo meanjs:angular-test <controller-name>\n```\n\nThis will create a test file for your controller, and if the sub-generator doesn’t find the specified controller file, it will create one for you.\n\n\n**Don’t forget!** You\'re suppose to pass the controller name as an argument.\n\n\n\n## Express Model Sub-Generator\n\nOften you will find the need to just create a single Express model. The Express model sub-generator will help you with creating an Express model in the **app/models** folder. To create a new model just use *yo*:\n\n\n```\n$ yo meanjs:express-model <model-name>\n```\n\nThis will create a new empty model in the **app/models** folder and a test file in the **app/tests** folder.\n\n\n**Note:** It is recommended you avoid naming your model in plural form and use a singular form instead. i.e article and not articles\n\n\n\n## Express Controller Sub-Generator\n\nAnother recurring task is creating an empty Express controller. The Express controller sub-generator will help you with creating an Express controller in the **app/controllers** folder. To create a new controller just use *yo*:\n\n\n```\n$ yo meanjs:express-controller <controller-name>\n```\n\nThis will create a new empty controller in the **app/controllers** folder.\n\n\n\n## Express Routes Sub-Generator\n\nTo make HTTP requests to your controller methods you will need to use a routing file in the **app/routes** folder. The Express routes sub-generator will help you to add a new empty routes file. To create a new routes file execute this *yo* command:\n\n\n```\n$ yo meanjs:express-route <route-name>\n```\n\nThis will create a new empty route file in the **app/routes** folder.\n\n\n## Express Test Sub-Generator\n\nYour MEAN application comes pre-bundled with the Mocha testing framework. To test your Express models you’ll need to create a new test file, which Mocha will use while running tests. For this purpose we provided you with the Express test sub-generator. Creating a new Express test is easy, just execute this command:\n\n\n```\n$ yo meanjs:express-test <model-name>\n```\n\nThis will create a test file for your Express model, and if the sub-generator doesn’t find the specified model, it will create one for you.\n\n\n**Don’t forget!** You\'re supposed to pass the model name as an argument.\n\n## License\n\n[BSD license](http://opensource.org/licenses/bsd-license.php)\n\n',
+415 silly resolved     readmeFilename: 'README.md',
+415 silly resolved     bugs: { url: 'https://github.com/meanjs/generator-meanjs/issues' },
+415 silly resolved     homepage: 'https://github.com/meanjs/generator-meanjs',
+415 silly resolved     _id: 'generator-meanjs@0.1.12',
+415 silly resolved     dist: { shasum: '806740f06ebfde136d53be67ce6ce91ce94eb42e' },
+415 silly resolved     _from: 'generator-meanjs@',
+415 silly resolved     _resolved: 'https://registry.npmjs.org/generator-meanjs/-/generator-meanjs-0.1.12.tgz' } ]
+416 info install generator-meanjs@0.1.12 into /usr/local/lib
+417 info installOne generator-meanjs@0.1.12
+418 info /usr/local/lib/node_modules/generator-meanjs unbuild
+419 verbose tar unpack /home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz
+420 silly lockFile 1a7b4c36-ib-node-modules-generator-meanjs tar:///usr/local/lib/node_modules/generator-meanjs
+421 verbose lock tar:///usr/local/lib/node_modules/generator-meanjs /home/alexdavis/.npm/1a7b4c36-ib-node-modules-generator-meanjs.lock
+422 silly lockFile 78d3e584-erator-meanjs-0-1-12-package-tgz tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz
+423 verbose lock tar:///home/alexdavis/.npm/generator-meanjs/0.1.12/package.tgz /home/alexdavis/.npm/78d3e584-erator-meanjs-0-1-12-package-tgz.lock
+424 silly gunzTarPerm modes [ '755', '644' ]
+425 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-meanjs'
+425 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-meanjs']
+425 error   errno: 3,
+425 error   code: 'EACCES',
+425 error   path: '/usr/local/lib/node_modules/generator-meanjs',
+425 error   fstream_type: 'Directory',
+425 error   fstream_path: '/usr/local/lib/node_modules/generator-meanjs',
+425 error   fstream_class: 'DirWriter',
+425 error   fstream_stack:
+425 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+425 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+425 error      'Object.oncomplete (fs.js:107:15)' ] }
+426 error Please try running this command again as root/Administrator.
+427 error System Linux 3.13.0-29-generic
+428 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "generator-meanjs"
+429 error cwd /home/alexdavis
+430 error node -v v0.10.26
+431 error npm -v 1.4.3
+432 error path /usr/local/lib/node_modules/generator-meanjs
+433 error fstream_path /usr/local/lib/node_modules/generator-meanjs
+434 error fstream_type Directory
+435 error fstream_class DirWriter
+436 error code EACCES
+437 error errno 3
+438 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-meanjs'
+439 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+439 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+439 error fstream_stack Object.oncomplete (fs.js:107:15)
+440 verbose exit [ 3, true ]

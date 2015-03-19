@@ -18,11 +18,11 @@ $
 
 # Command Line History (newest to oldest):
 :wq!
+:q
 :q!
 :g/^#/s/^#//g
 :w
 :w!
-:q
 
 # Search String History (newest to oldest):
 ? ^#
@@ -38,7 +38,9 @@ $
 # Registers:
 "0	LINE	0
 	  minion=`sudo salt-key -L | sed -n 3p`
-"1	LINE	0
+""1	LINE	0
+	TRUE=`sudo salt '*' test.ping | sed -n 2p`
+"2	LINE	0
 	
 	if [ "$True" != "True" ]; then
 	  echo "Error validating salt."
@@ -46,46 +48,45 @@ $
 	  echo "Seasoned with Salt"
 	fi
 	exit 0
-"2	LINE	0
-	echo $True
 "3	LINE	0
-	  exit 1
+	echo $True
 "4	LINE	0
-	  echo $minion
+	  exit 1
 "5	LINE	0
 	  echo $minion
 "6	LINE	0
-	  minion=`sudo salt-key -L | sed -n 3p`
+	  echo $minion
 "7	LINE	0
-	done
+	  minion=`sudo salt-key -L | sed -n 3p`
 "8	LINE	0
 	done
 "9	LINE	0
 	done
-""-	CHAR	0
-	Salt 
+"-	CHAR	0
+	dave03
 
 # File marks:
-'0  10  0  ~/salt-master-minion.md
-'1  1  0  ~/README.md
-'2  11  0  ~/salt_installer.sh
-'3  21  35  ~/salt_installer.sh
-'4  22  0  ~/salt_installer.sh
-'5  22  5  ~/salt_installer.sh
-'6  22  9  ~/salt_installer.sh
-'7  19  4  ~/salt_installer.sh
-'8  14  2  ~/salt_installer.sh
-'9  13  56  ~/salt_installer.sh
+'0  21  0  ~/salt_installer.sh
+'1  1  0  ~/salt_installer.sh
+'2  10  0  ~/salt-master-minion.md
+'3  1  0  ~/README.md
+'4  11  0  ~/salt_installer.sh
+'5  23  35  ~/salt_installer.sh
+'6  24  0  ~/salt_installer.sh
+'7  24  5  ~/salt_installer.sh
+'8  24  9  ~/salt_installer.sh
+'9  22  4  ~/salt_installer.sh
 
 # Jumplist (newest first):
+-'  21  0  ~/salt_installer.sh
+-'  22  0  ~/salt_installer.sh
+-'  1  0  ~/salt_installer.sh
 -'  10  0  ~/salt-master-minion.md
 -'  1  0  ~/salt-master-minion.md
 -'  1  0  ~/README.md
 -'  11  0  ~/salt_installer.sh
--'  1  0  ~/salt_installer.sh
--'  21  6  ~/salt_installer.sh
--'  22  0  ~/salt_installer.sh
--'  19  4  ~/salt_installer.sh
+-'  23  6  ~/salt_installer.sh
+-'  24  0  ~/salt_installer.sh
 -'  14  2  ~/salt_installer.sh
 -'  13  56  ~/salt_installer.sh
 -'  7  0  ~/salt_installer.sh
@@ -173,26 +174,13 @@ $
 -'  1  0  ~/minion
 -'  22  0  ~/minion
 -'  1  0  ~/minion
--'  22  0  ~/minion
--'  1  0  ~/minion
--'  11  0  ~/salt_installer.sh
--'  1  0  ~/salt_installer.sh
 
 # History of marks within files (newest to oldest):
 
-> ~/salt-master-minion.md
-	"	10	0
-	^	10	0
-	.	9	3
-	+	9	3
-
-> ~/README.md
-	"	1	0
-
 > ~/salt_installer.sh
-	"	11	0
-	^	21	36
-	.	11	0
+	"	21	0
+	^	19	33
+	.	21	0
 	+	4	0
 	+	2	19
 	+	2	14
@@ -270,21 +258,32 @@ $
 	+	13	39
 	+	16	0
 	+	14	0
-	+	19	42
-	+	22	9
-	+	19	3
-	+	22	30
-	+	22	4
-	+	22	27
-	+	22	1
-	+	22	7
-	+	22	5
-	+	22	0
-	+	22	0
-	+	21	36
-	+	19	3
-	+	21	6
+	+	22	42
+	+	24	9
+	+	22	3
+	+	24	30
+	+	24	4
+	+	24	27
+	+	24	1
+	+	24	7
+	+	24	5
+	+	24	0
+	+	24	0
+	+	23	36
+	+	22	3
+	+	23	6
 	+	11	0
+	+	19	32
+	+	21	0
+
+> ~/salt-master-minion.md
+	"	10	0
+	^	10	0
+	.	9	3
+	+	9	3
+
+> ~/README.md
+	"	1	0
 
 > ~/minion
 	"	22	0
